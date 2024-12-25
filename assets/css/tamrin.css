@@ -1,0 +1,99 @@
+@charset"UTF-8";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+
+
+
+* {
+    direction: rtl;
+    font-family:vazirmatn ;
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.menu li{
+font-size: xx-large;
+display: inline ;
+padding: 5px 30px;
+margin-top: 10%;
+border-left: 1px dotted;
+}
+
+.menu li a:hover{
+    color: brown;
+}
+
+.header{
+    background-image: url(../image/header_green.jpg);
+    border-radius: 15px;
+    height: 100px;
+    margin: 5px;
+}
+
+.logo img{
+width: 100px;
+float: right;
+}
+
+.logo{
+    height: 120px;
+    float:right
+    
+}
+.slogan{
+    width: 1500px;
+  color: aliceblue;
+  padding: 27px;
+  float: right;
+}
+
+.search input{
+    float: right;
+    height: 35px;
+    border-radius: 0 5px 5px 0;
+    width: 230px;
+}
+
+.search .searchicon{
+    background-image: url(../image/search.png);
+    border-radius: 5px 0 0 5px;
+
+}
+
+
+.search .searchicon{
+    float: left;
+width: 40px;
+height: 35px;
+background-repeat: no-repeat;
+background-color: rgb(32, 173, 143);
+background-position: center;
+}
+
+
+.search{ 
+    margin: 10px;
+    padding: 30px;
+}
+
+
+
+p{
+    
+    background-color: rgb(250, 248, 246);
+    width: 99%;
+    height: 200px;
+    border: 5px outset rgb(167, 162, 162);
+    border-radius: 10px;
+    padding: 16px;
+    margin: 10px;
+    box-shadow: -6px 9PX 11PX 0px gray ;
+}
+
+
+
+
+
